@@ -1,0 +1,27 @@
+{
+  "name": "allex_staticservicecontainerlib",
+  "version": "1.0.0",
+  "description": "AllexJS mixin lib for a Service that will have a number of subServices started statically",
+  "main": "index.js",
+  "scripts": {
+    "test": "allex-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-libs/staticservicecontainer.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "static",
+    "service",
+    "container",
+    "mixin",
+    "lib"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-libs/staticservicecontainer/issues"
+  },
+  "homepage": "https://github.com/allex-libs/staticservicecontainer#readme"
+}
