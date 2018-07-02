@@ -46,7 +46,7 @@ function createMixin (execlib) {
   }
 
   function replaceValuesInObj (replacemap, obj) {
-    var ret = {}, _r = ret, _rm = replacemap;
+    var ret = lib.isArray(obj) ? [] : {}, _r = ret, _rm = replacemap;
     lib.traverseShallow(obj, replaceValuesInObjOnTraverse.bind(null, _rm, _r));
     _rm = null;
     _r = null;
